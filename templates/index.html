@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<header id="cabecera">
+    <h1> INGRESO DE DATOS </h1>
+</header>
+
+<form action="{{ url_for('index') }}" method="post">
+<div id="menu">
+    <ul>
+        <li>
+            <label>Nombre</label>
+            <input type="text" name="nombre" maxlength="25" placeholder="Ingrese Nombre" required>
+        </li>
+
+        <li>
+            <label>Apellido</label>
+            <input type="text" name="apellido" maxlength="25" placeholder="Ingrese Apellido" required>
+        </li>
+    </ul>
+</div>
+    <button name="envio"> ENVIAR DATOS </button>
+</form>
+
+{% endblock %}

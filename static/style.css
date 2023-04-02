@@ -1,0 +1,65 @@
+body{
+background-color: #5757D5;
+}
+
+#cabecera h1{
+font-family:dolce vita light;
+color: #2E24CD ;
+background-color: #8A8ADD;
+font-size: 50px ;
+text-align:center;
+padding:0px;
+margin:auto;
+text-shadow: 3px 5px 10px #66668D;
+opacity: 0.6;
+}
+
+#menu ul{
+list-style: none;
+margin:0px;
+padding: 0px;
+}
+
+#menu ul li label{
+font-size: 25px;
+text-shadow: 3px 3px 20px grey;
+color:white;
+padding:0px;
+}
+
+#menu ul li label:hover{
+font-size: 35px;
+text-shadow: 5px 5px 35px black;
+color:white;
+padding:0px;
+transition: .7s;
+}
+
+#menu ul li input:hover{
+font-size: 20px;
+text-shadow: 5px 5px 35px grey;
+color:black;
+padding:0px;
+transition-duration: .4s;
+}
+
+#pie{
+background-color:blue;
+color:white;
+}
+
+.lista-izq{
+
+float:right;
+width:25%;
+color:white;
+padding:10px;
+box-sizing:
+border-box;
+
+}
+
+.lista-izq h1{
+top:60px;
+left:34;
+}
